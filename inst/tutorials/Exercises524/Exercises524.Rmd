@@ -48,7 +48,6 @@ filter(flights, carrier == c("YV","HA","AS"))
 ```
 
 
-
 ## Soujanya
 ## Easy 
 
@@ -96,4 +95,58 @@ Missing data in the flights dataset would suggest the flight being cancelled so 
 
 ```{r Remove_missing, exercise=TRUE, exercise.eval=TRUE}
 
+```
+## Yuji
+## Easy
+### Exercise 1
+
+In this execise, we are going to use filter(). run the code below to get the information of that. 
+```{r 1y, exercise=TRUE, exercise.eval=TRUE}
+?filter()
+```
+## Kamal
+## Easy
+
+### question 1
+
+Write the code to find the flights that had an arrival delay of 60 minutes or more.
+
+```{r two-plus-two, exercise=TRUE}
+
+```
+
+## Moderate 
+
+### question 2
+
+wirte the code to find flights that departed between January and August
+
+```{r two-plus-three, exercise=TRUE}
+
+```
+
+## Hard
+
+### question 
+
+find the flights that Departed between midnight and 7am (inclusive).
+
+```{r two-plus-four, exercise=TRUE}
+
+```
+
+## Intermediate
+### Exercise 2
+
+Find all flights that depart from LGA and EWR
+```{r 3y, exercise=TRUE, exercise.eval=TRUE}
+
+```
+
+## Advance
+### Exercise 3
+
+Find same flights that code below represents using !()
+```{r 5y, exercise=TRUE, exercise.eval=TRUE}
+filter(flights, arr_delay > 60, dep_delay > 60)
 ```
