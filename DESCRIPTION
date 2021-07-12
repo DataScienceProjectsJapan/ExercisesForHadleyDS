@@ -1,11 +1,31 @@
 Package: ExercisesForHadleyDS
-Title: What the Package Does (One Line, Title Case)
+Title: Exercises to accompany R for Data Science by Hadley Wickham offered by APU students and faculty
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "APU FACULTY & STUDENTS",
-           family = "APU FACULTY & STUDENTS",
+    person(given = "William",
+           family = "Claster",
            role = c("aut", "cre"),
            email = "wclaster@apu.ac.jp",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+           person(given = "Dang",
+           family = "Ngo",
+           role = c("aut", "cre"),
+           email = "dangng18@apu.ac.jp",
+           comment = c(ORCID = "YOUR-ORCID-ID"))  
+          person(given = "Kamal",
+           family = "Al-Tway",
+           role = c("aut", "cre"),
+           email = "kamaal18@apu.ac.jp",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+          person(given = "Soujanya",
+           family = "Dash",
+           role = c("aut", "cre"),
+           email = "soujda18@apu.ac.jp",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+           person(given = "Yuji",
+           family = "Yamaguchi",
+           role = c("aut", "cre"),
+           email = "yujiya19@apu.ac.jp",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Exercises to accompany Hadley's Data Science with R.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
